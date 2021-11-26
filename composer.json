@@ -11,7 +11,7 @@
             "email": "ernesto.alvarez@hab.desoft.inet"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Desoft\\": "src/"
