@@ -63,7 +63,7 @@ class ConexionEnTuMovil {
         }
         catch(Exception $e)
         {
-            throw new CustomException("Sending Error", null);
+            throw new CustomException("Error al enviar", null);
 
         }
     }
