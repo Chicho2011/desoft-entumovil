@@ -1,0 +1,35 @@
+{
+    "name": "desoft/entumovil",
+    "description": "Conexión con EnTuMovil",
+    "require": {
+        "guzzlehttp/guzzle": "7.4.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ernesto Alvarez Lopez",
+            "email": "ernesto.alvarez@hab.desoft.inet"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Desoft\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Desoft\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Desoft\\EnTuMovilServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "6.x-dev"
+    }
+}
